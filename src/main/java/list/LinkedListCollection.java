@@ -28,6 +28,16 @@ public class LinkedListCollection {
 		for(String item : list) {
 			System.out.println(item);
 		}
+		
+//		Accessing element from LinkedList
+		String access = list.get(1);
+		System.out.println("\nAccessing an element from LinkedList:");
+		System.out.println(access);
+		
+//		Removing an element from LinkedList
+		list.remove(0);
+		System.out.println("\nLinkedList after removing an element:");
+		System.out.println(list);
 	}
 
 }
