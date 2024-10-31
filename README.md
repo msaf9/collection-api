@@ -10,6 +10,7 @@
 - [License](#license)
 
 ## Introduction
+The Java Collection API is a framework that provides a unified architecture for storing, managing, and manipulating groups of objects. It includes interfaces like List, Set, Queue, and Map, along with their implementations such as ArrayList, HashSet, LinkedList, and HashMap. These collections help in handling dynamic data structures, enabling developers to perform operations like sorting, searching, insertion, deletion, and iterating efficiently. Additionally, the Collections class offers utility methods for sorting, reversing, and shuffling collections. Overall, the Collection API is designed to handle a wide variety of common programming tasks, making data management more robust and straightforward in Java.
 
 ## Programming Language
 - Java
