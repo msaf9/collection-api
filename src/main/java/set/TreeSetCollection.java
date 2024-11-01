@@ -36,6 +36,27 @@ public class TreeSetCollection {
 		set.remove("MN");
 		System.out.println("\nTreeSet after removing an element:");
 		System.out.println(set);
+		
+		/*
+	    Output
+
+	    TreeSet contains the following elements:
+	    [CA, Fl, IA, MN, NJ, NY]
+
+	    Iterating through TreeSet:
+	    CA
+	    Fl
+	    IA
+	    MN
+	    NJ
+	    NY
+
+	    Will print true, if CA is found in the TreeSet: true
+
+	    TreeSet after removing an element:
+	    [CA, Fl, IA, NJ, NY]
+	*/
+		
 	}
 
 }

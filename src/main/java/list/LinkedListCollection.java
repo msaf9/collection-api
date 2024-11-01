@@ -38,6 +38,27 @@ public class LinkedListCollection {
 		list.remove(0);
 		System.out.println("\nLinkedList after removing an element:");
 		System.out.println(list);
+		
+	/*
+	    Output
+
+	    Creating LinkedList:
+	    [C, C++, Python, R, Java]
+
+	    Iterating through LinkedList:
+	    C
+	    C++
+	    Python
+	    R
+	    Java
+
+	    Accessing an element from LinkedList:
+	    C++
+
+	    LinkedList after removing an element:
+	    [C++, Python, R, Java]
+	*/
+		
 	}
 
 }

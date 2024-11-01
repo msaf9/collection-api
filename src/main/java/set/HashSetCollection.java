@@ -36,6 +36,27 @@ public class HashSetCollection {
 		set.remove("MN");
 		System.out.println("\nHashSet after removing an element:");
 		System.out.println(set);
+		
+	/*
+	    Output
+
+	    HashSet contains the following elements:
+	    [MN, Fl, IA, NY, NJ, CA]
+
+	    Iterating through HashSet:
+	    MN
+	    Fl
+	    IA
+	    NY
+	    NJ
+	    CA
+
+	    Will print true, if CA is found in the HashSet: true
+
+	    HashSet after removing an element:
+	    [Fl, IA, NY, NJ, CA]
+	*/
+		
 	}
 
 }
