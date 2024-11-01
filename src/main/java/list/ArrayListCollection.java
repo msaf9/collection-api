@@ -36,6 +36,24 @@ public class ArrayListCollection {
 		System.out.println("\nArrayList after removing an element:");
 		System.out.println(list);
 		
+	/*
+	    Output:
+	    
+	    Creating ArrayList:
+	    [Alex, Bob, Carry]
+	    
+	    Iterating through ArrayList:
+	    Alex
+	    Bob
+	    Carry
+	    
+	    Accessing an element from ArrayList:
+	    Bob
+	    
+	    ArrayList after removing an element:
+	    [Bob, Carry]
+	*/
+		
 	}
 
 }
