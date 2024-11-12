@@ -37,6 +37,25 @@ public class HashMapCollection {
         if(personAgeMap.containsKey("Charlie")) {
         	System.out.println("Charlie is in the map.");
         }
+        
+        /*
+        
+        Iterating over the map:
+        Bob:25
+        Alice:30
+        Charlie:35
+
+        Retrieving a value using a key:
+        Bob's age is 25.
+
+        Iterating over the map after removing a key-value pair - Alice:
+        Bob:25
+        Charlie:35
+
+        Checking if a key exists:
+        Charlie is in the map.
+        
+        */
         	
 	}
 
