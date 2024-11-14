@@ -6,7 +6,7 @@ import java.util.Map;
 public class HashMapCollection {
 
 	public static void main(String[] args) {
-		// Creating a HashMap
+//		Creating a HashMap
         Map<String, Integer> personAgeMap = new HashMap<>();
         
 //        Adding key-value pairs
