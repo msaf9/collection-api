@@ -21,6 +21,24 @@ public class TreeMapCollection {
 		for(Map.Entry<String, String> entry : treeMap.entrySet()) {
 			System.out.println(entry.getKey() + ":" + entry.getValue());
 		}
+		
+//      Retrieving a value using a key
+		System.out.println("\nRetrieving a value using a key");
+		String key = treeMap.get("BER");
+		System.out.println("BER stands for " + key);
+		
+//      Removing a key-value pair
+		System.out.println("\nIterating over the map after removing a key-value pair - FAIRFAX:");
+		treeMap.remove("FRFX");
+		for(Map.Entry<String, String> entry : treeMap.entrySet()) {
+			System.out.println(entry.getKey() + ":" + entry.getValue());
+		}
+		
+//      Checking if a key exists
+		System.out.println("\nChecking if a key exists:");
+		if(treeMap.containsKey("CALC")) {
+			System.out.println("CALIFORNIA CITY is in the TreeMap");
+		}
 	}
 
 }
