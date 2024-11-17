@@ -39,6 +39,27 @@ public class TreeMapCollection {
 		if(treeMap.containsKey("CALC")) {
 			System.out.println("CALIFORNIA CITY is in the TreeMap");
 		}
+		
+		/*
+		Iterating over the map:
+		ALB:ALBANY
+		BER:BERKELEY
+		CALC:CALIFORNIA CITY
+		DBLN:DUBLIN
+		FRFX:FAIRFAX
+
+		Retrieving a value using a key:
+		BER stands for BERKELEY
+
+		Iterating over the map after removing a key-value pair - FAIRFAX:
+		ALB:ALBANY
+		BER:BERKELEY
+		CALC:CALIFORNIA CITY
+		DBLN:DUBLIN
+
+		Checking if a key exists:
+		CALIFORNIA CITY is in the TreeMap
+		*/
 	}
 
 }
