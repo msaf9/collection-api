@@ -1,5 +1,8 @@
 package problems;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Problem: Write a Java program to find the common elements between two
  * ArrayLists of integers.
@@ -8,8 +11,22 @@ package problems;
 public class ListProblem4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		List<Integer> list1 = new ArrayList<>();
+		List<Integer> list2 = new ArrayList<>();
+		
+		list1.add(2);
+		list1.add(4);
+		list1.add(11);
+		list1.add(41);
+		
+		list2.add(11);
+		list2.add(21);
+		list2.add(4);
+		list2.add(32);
+		
+		System.out.println("List 1: " + list1);
+		System.out.println("List 2: " + list2);
+		
 	}
 
 }
