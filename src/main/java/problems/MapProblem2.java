@@ -20,7 +20,7 @@ public class MapProblem2 {
 		do {
 
 			System.out.println("::Phonebook Menu::");
-			System.out.println("1. Add\n2. Remove\n3. Lookup\n");
+			System.out.println("1. Add\n2. Remove\n3. Lookup\n4. View All\n");
 			System.out.println("(0 to exit)\n");
 
 			System.out.print("Select you options from 1 to 3:");
@@ -36,6 +36,9 @@ public class MapProblem2 {
 			case 3:
 				find(sc, phoneMap);
 				break;
+			case 4:
+				viewAll(phoneMap);
+				break;
 			default:
 				if (option != 0) {
 					System.out.println("Invalid option");
@@ -47,6 +50,13 @@ public class MapProblem2 {
 		} while (option != 0);
 
 		sc.close();
+	}
+
+	private static void viewAll(Map<String, String> phoneMap) {
+		System.out.println("View all:");
+		for(Map.Entry<String, String> entry : phoneMap.entrySet()) {
+			System.out.println("\n" + entry.getKey() + ":" + entry.getValue() + "\n");
+		}
 	}
 
 	private static void remove(Scanner sc, Map<String, String> phoneMap) {
@@ -67,7 +77,6 @@ public class MapProblem2 {
 		String key = sc.next();
 		System.out.print("Enter your contact number: ");
 		String value = sc.next();
-
 		phoneMap.put(key, value);
 		System.out.println(phoneMap);
 	}
