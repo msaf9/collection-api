@@ -12,24 +12,32 @@ import java.util.Map;
 public class MapProblem4 {
 
 	public static void main(String[] args) {
+		// Initialize a HashMap to store student names as keys and their scores as
+		// values
 		Map<String, Integer> hashMap = new HashMap<>();
-		int high = 0;
-		String name = "";
-		
+
+		// Variables to track the highest score and the corresponding student's name
+		int high = 0; // Initially set to 0, assuming scores are non-negative
+		String name = ""; // Stores the name of the student with the highest score
+
+		// Add sample student names and their scores to the map
 		hashMap.put("Alex", 9);
 		hashMap.put("Carry", 1);
 		hashMap.put("Bob", 59);
 		hashMap.put("Dayton", 82);
 		hashMap.put("Elf", 96);
-		
-		for(Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+
+		// Iterate through each entry in the map to find the student with the highest
+		// score
+		for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+			// If the current score is greater than or equal to the highest score so far
 			if (entry.getValue() >= high) {
-				high = entry.getValue();
-				name = entry.getKey();
+				high = entry.getValue(); // Update the highest score
+				name = entry.getKey(); // Update the name of the student with the highest score
 			}
 		}
-		
+
+		// Print the name of the student with the highest score
 		System.out.println(name);
 	}
-
 }
