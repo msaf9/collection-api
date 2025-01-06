@@ -26,3 +26,4 @@ cd collection-api
 ```
 
 ## License
+[MIT LICENSE](LICENSE)
